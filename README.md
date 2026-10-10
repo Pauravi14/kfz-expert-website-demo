@@ -1,11 +1,14 @@
-# Kfz expert office — portfolio demo
+# Kfz-Sachverständigen website (portfolio)
 
-Static **portfolio showcase** of a German automotive expert (Sachverständiger) website: navy/copper branding, hero slideshow, service cards, and contact layout.
+**Live production site:** [https://www.sesa-svb.de/](https://www.sesa-svb.de/)
 
-- **Not a client site** — fictional brand **NORDEX**, placeholder text, no real phone numbers or addresses.
-- **Purpose:** demonstrate design and front-end build quality on [GitHub Pages](https://pauravi14.github.io/kfz-expert-website-demo/).
+Static website for an independent automotive expert practice (German market): responsive layout, service pages, contact flow, and brand styling (navy / copper).
 
-## Pages
+This repository holds a **sanitized layout demo** (fictional “NORDEX” branding, no client PII) so recruiters can browse structure and code on GitHub.
+
+**Layout preview (demo):** [pauravi14.github.io/kfz-expert-website-demo](https://pauravi14.github.io/kfz-expert-website-demo/)
+
+## Demo pages in this repo
 
 | Page | What it shows |
 |------|----------------|
@@ -21,14 +24,12 @@ python build_demo.py
 python -m http.server 8765
 ```
 
-Open http://localhost:8765/
-
 ## Stack
 
 - Semantic HTML
 - Custom CSS (responsive header, hero, cards)
-- Vanilla JS (`js/main.js`) for menu and hero slider
+- Vanilla JS for menu and hero slider
 
 ## Author
 
-**Pauravi Pardeshi** — portfolio project. Client production sites are separate and not included here.
+**Pauravi Pardeshi** — design & implementation. Production site hosted for the client; this repo is for portfolio reference only.

@@ -31,8 +31,7 @@ def demo_banner() -> str:
     return """
     <div class="portfolio-demo-banner" role="note">
       <strong>Portfolio-Demo</strong> — Layout &amp; UI-Showcase von einem Kfz-Sachverständigen-Auftritt.
-      Fiktive Inhalte, keine echte Praxis. Entwickelt von
-      <a href="https://github.com/Pauravi14" rel="noopener noreferrer">Pauravi Pardeshi</a>.
+      Fiktive Inhalte, keine echte Praxis.
     </div>"""
 
 
@@ -316,7 +315,7 @@ def main() -> None:
         <div class="content-narrow legal-text">
           <h1>Impressum (Demo)</h1>
           <p>Diese Website ist ein Portfolio-Showcase. Es handelt sich nicht um eine echte Geschäftspräsenz.</p>
-          <p>Verantwortlich für das Demo-Projekt: Pauravi Pardeshi — siehe GitHub-Profil im Banner.</p>
+          <p>Verantwortlich für das Demo-Projekt: siehe Repository-Beschreibung (Portfolio-Layout, keine echte Praxis).</p>
         </div>
       </section>
     </main>"""

@@ -30,6 +30,6 @@ python -m http.server 8765
 - Custom CSS (responsive header, hero, cards)
 - Vanilla JS for menu and hero slider
 
-## Author
+## Note
 
-**Pauravi Pardeshi** — design & implementation. Production site hosted for the client; this repo is for portfolio reference only.
+Layout demo for portfolio reference. Production client site is hosted separately on a custom domain.

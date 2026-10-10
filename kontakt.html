@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <title>Kontakt — NORDEX Demo</title>
+    <meta name="description" content="Demo-Kontaktseite mit Formular-Layout." />
+    <meta name="robots" content="noindex, nofollow" />
+    <link rel="icon" href="./assets/favicon.png" type="image/png" sizes="32x32" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=Source+Sans+3:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./css/styles.css?v=1" />
+    <link rel="stylesheet" href="./css/demo-banner.css?v=1" />
+  </head>
+  <body>
+    
+    <div class="portfolio-demo-banner" role="note">
+      <strong>Portfolio-Demo</strong> — Layout &amp; UI-Showcase von einem Kfz-Sachverständigen-Auftritt.
+      Fiktive Inhalte, keine echte Praxis. Entwickelt von
+      <a href="https://github.com/Pauravi14" rel="noopener noreferrer">Pauravi Pardeshi</a>.
+    </div>
+    <a class="skip" href="#main">Zum Hauptinhalt springen</a>
+    <header class="header">
+      <div class="nav">
+        <a class="brand" href="./index.html">
+          <span class="brand-mark-slot">
+            <img class="brand-mark" src="./assets/logo-monogram.png" width="290" height="280" alt="" />
+          </span>
+          <span class="brand-text">
+            <span class="brand-name">NORDEX</span>
+            <span class="brand-sub">KFZ · SACHVERSTÄNDIGENBÜRO</span>
+          </span>
+        </a>
+        <div class="nav-divider" aria-hidden="true"></div>
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-label="Menü">
+          <span class="menu-toggle__icon" aria-hidden="true"></span>
+          <span class="menu-toggle__label">Menü</span>
+        </button>
+        <ul class="menu"><li><a href="./index.html">HOME</a></li><li><a href="./ueber-uns.html">Über uns</a></li><li><a href="./leistungen/index.html">Leistungen</a></li><li><a href="./kontakt.html" aria-current="page">Kontakt</a></li></ul>
+        <div class="nav-divider nav-divider-end" aria-hidden="true"></div>
+        <div class="header-contact">
+          <a class="btn btn-inquiry" href="./kontakt.html">Anfrage</a>
+        </div>
+      </div>
+    </header>
+    <main id="main">
+      <section class="section content-light">
+        <header class="section-header section-header--center">
+          <h1>Kontakt</h1>
+          <p class="section-intro">Formular und Kontaktblöcke als UI-Demo — keine Daten werden versendet.</p>
+        </header>
+        <div class="content-narrow">
+          <p><strong>Demo-Hinweis:</strong> Felder sind deaktiviert. In der Live-Version würde hier eine sichere Anfrage laufen.</p>
+          <form class="contact-form" action="#" method="post" onsubmit="return false;">
+            <label>Name<input type="text" name="name" disabled placeholder="Mustername" /></label>
+            <label>E-Mail<input type="email" name="email" disabled placeholder="demo@example.com" /></label>
+            <label>Nachricht<textarea name="message" rows="5" disabled placeholder="Ihre Nachricht (Demo)"></textarea></label>
+            <button type="submit" class="btn btn-primary" disabled>Anfrage senden (Demo)</button>
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div>
+        <strong>NORDEX Kfz-Sachverständigenbüro</strong><br />
+        Demo-Website · Musterstadt, Deutschland
+      </div>
+      <nav>
+        <a href="./impressum.html">Impressum (Demo)</a>
+        <a href="./kontakt.html">Kontakt</a>
+      </nav>
+      <p class="muted">Portfolio-Showcase. Keine Rechtsberatung. Keine echten Kontaktdaten.</p>
+    </footer>
+    <script src="./js/main.js?v=1" defer></script>
+  </body>
+</html>

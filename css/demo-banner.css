@@ -1,0 +1,17 @@
+.portfolio-demo-banner {
+  background: #142033;
+  color: #e8f0fa;
+  text-align: center;
+  font-size: 0.875rem;
+  padding: 0.55rem 1rem;
+  border-bottom: 1px solid rgba(201, 131, 42, 0.45);
+}
+
+.portfolio-demo-banner a {
+  color: #d9a04e;
+  text-decoration: underline;
+}
+
+.portfolio-demo-banner strong {
+  color: #f6e7d8;
+}
